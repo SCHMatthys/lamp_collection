@@ -1,0 +1,26 @@
+.comment_container{
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 32px;
+
+    div{
+        padding-bottom: 8px;
+    }
+
+    p{
+        color: white;
+        font-size: 16px;
+        display: inline;
+    }
+
+    span{
+        color: white;
+    }
+
+    h2{
+        padding-bottom: 16px;
+    }
+}

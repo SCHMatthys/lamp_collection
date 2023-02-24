@@ -1,0 +1,26 @@
+nav ul{
+        background-color: black;
+        width: 100%;
+        display: flex;
+}
+
+nav ul li{
+    padding: 16px;
+    background-color: black;
+    
+    &:nth-child(3){
+        margin-left: auto;
+    }
+    a{
+        font-family: Anton;
+        color: white;
+        background-color: black;
+        letter-spacing: 1px;
+        font-size: 18px;
+        transition: 0.2s;
+    }
+    a:hover{
+        color: rgb(180, 20, 180);
+    }
+    
+}
